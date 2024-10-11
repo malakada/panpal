@@ -11,7 +11,7 @@ gem "cssbundling-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
-
+gem "tailwindcss-rails"
 
 group :development, :test do
   gem "brakeman", require: false
