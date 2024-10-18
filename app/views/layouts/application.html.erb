@@ -21,6 +21,12 @@
 
   <body>
     <%= render "shared/marketing_navbar" %>
+    <%= if defined?(notice) %>
+      <p class="notice"><%= notice %></p>
+    <% end %>
+    <%= if defined?(alert) %>
+      <p class="alert"><%= alert %></p>
+    <% end %>
     <%= yield %>
   </body>
 </html>
