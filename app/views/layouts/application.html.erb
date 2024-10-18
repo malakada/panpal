@@ -21,10 +21,10 @@
 
   <body>
     <%= render "shared/marketing_navbar" %>
-    <%= if defined?(notice) %>
+    <% if defined?(notice) %>
       <p class="notice"><%= notice %></p>
     <% end %>
-    <%= if defined?(alert) %>
+    <% if defined?(alert) %>
       <p class="alert"><%= alert %></p>
     <% end %>
     <%= yield %>
